@@ -1,7 +1,6 @@
 import http from "k6/http";
 
-export const webhook =
-    "https://fenergo.webhook.office.com/webhookb2/ee434341-fdaf-434b-870d-14edaebc2529@86eb5cdc-05d5-4952-b36d-bc110af1e2e5/TeamFoundationServer/585f1d085a954221aaaf7c8ad9ea7c6b/63275915-c43c-4c8d-bd3a-1b9cd232af41";
+export const webhook = "hook";
 
 export const roundToTwo = (num) => {
     return Math.round(num * 100) / 100;
